@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagem-principal {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background: hsl(216, 50%, 16%);
+    width: 20%;
+    height: 70%;
+    border-radius: 1rem;
+}
+
+.titulo {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.descricao {
+    padding: 1rem;
+    color:hsl(215, 51%, 70%);
+    font-weight: 400;
+
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.preco {
+    margin-right: 5rem;
+    color:  hsl(178, 100%, 50%);
+    font-weight: 300;
+}
+
+.tempo {
+    margin-right: 1rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.imagem-rodape {
+    width: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.criacao {
+    margin-right: 5rem;
+   
+}
+
+.criacao-b {
+    color:  hsl(0, 0%, 100%);
+}
+
+
